@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kelvin Nderi | Web Dev & Cybersecurity</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      color: #ddd;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    section {
+      padding: 3rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      border-left: 4px solid #0077b6;
+      padding-left: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .project img, .cert img {
+  max-width: 100%;
+  border-radius: 20px;
+  margin-top: 0.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project img:hover, .cert img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+    .project img, .cert img {
+      max-width: 100%;
+      border-radius: 5px;
+      margin-top: 0.5rem;
+    }
+
+    .social-icons a {
+      margin-right: 1rem;
+      font-size: 1.8rem;
+      color: #2c5364;
+    }
+
+    .social-icons a:hover {
+      color: #0077b6;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 0.6rem 1.2rem;
+      background: #0077b6;
+      color: white;
+      text-decoration: none;
+      margin-top: 1rem;
+      border-radius: 5px;
+    }
+
+    .button:hover {
+      background: #005f87;
+    }
+
+    footer {
+      background: #203a43;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    img.profile {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 1rem;
+  border: 4px solid white;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <img src="myphoto.jpg" alt="Kelvin Nderi" class="profile">
+    <h1>Kelvin Nderi</h1>
+    <p>Web Developer & Cybersecurity Enthusiast</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a passionate web developer and cybersecurity enthusiast skilled in creating secure and efficient web applications. I enjoy building solutions and exploring security tools and techniques.</p>
+  </section>
+
+ <div class="project">
+  <h3>K-Soft Online Ordering System</h3>
+  <p>A Flask-based e-commerce app with Firebase backend.</p>
+  <img src="project1.jpg" alt="K-Soft Project Screenshot">
+  <a href="https://github.com/kelvojohnx-lab/k-soft-ordering-system" class="button" target="_blank" rel="noopener">View Project</a>
+</div>
+
+<div class="project">
+  <h3>Blood Bank Management System</h3>
+  <p>A Flask app with donor/patient dashboards, secure auth, and real-time blood request tracking.</p>
+  <img src="project2.jpg" alt="Blood Bank Project Screenshot">
+  <a href="https://github.com/kelvojohnx-lab/blood-bank-system" class="button" target="_blank" rel="noopener">View Project</a>
+</div>
+
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="cert">
+      <p>IBM Cybersecurity Analyst Certificate</p>
+      <img src="cert1.jpg" alt="IBM Certificate">
+    </div>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>Download my latest resume:</p>
+    <a href="resume.pdf" class="button" target="_blank" rel="noopener">Download Resume</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="social-icons">
+      <a href="https://github.com/kelvojohnx-lab" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+      <a href="https://linkedin.com/in/nderikelvin97@gmail.com" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:kelvojohnx001@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kelvin Nderi</p>
+  </footer>
+</body>
+</html>
